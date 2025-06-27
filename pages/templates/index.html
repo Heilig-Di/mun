@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Easy English with Алёша</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{% static 'pages/style.css' %}" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-text">Войти через:</div>
+        <a href="#" class="header-link">Камин</a>
+    </header>
+
+    <section class="landing-section landing-main">
+      <h1 class="brand">Easy English</h1>
+      <h2>
+        <span class="brand-text">Easy</span>English
+      </h2>
+      <p class="landing-main-text">
+        Уже лет пять учите английский и все еще на A2?
+        <br>
+        У меня есть отличное решение...
+      </p>
+    </section>
+
+    <section class="landing-section landing-features">
+      <section class="landing-feature feature-services">
+        <h2>Тут какой-то текст <span class="brand-text">mu</span>sic services</h2>
+        <ul>
+          <li>Spotify</li>
+          <li>Deezer</li>
+        </ul>
+      </section>
+      <section class="landing-feature feature-notifications">
+        <h2>Здесь<span class="brand-text">тоже</span>много текста</h2>
+        <ul>
+          <li>Email</li>
+          <li>Telega</li>
+        </ul>
+      </section>
+    </section>
+  </body>
+</html>

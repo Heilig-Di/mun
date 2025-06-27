@@ -1,0 +1,14 @@
+uv.lock
+.env
+.venv/
+*.pyc
+__pycache__/
+.python-version
+.DS_Store
+cpython-312.pyc
+.ruff.toml
+node_modules/
+dist/
+npm-debug.log
+*.sqlite3
+migrations/

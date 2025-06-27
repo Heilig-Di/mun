@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  }
+}
+
+"scripts": {
+  "build": "cp -R node_modules/bootstrap/dist/js bootstrap.min.js* dist/ && cp -R node_modules/@popperjs core/dist/umd/popper.min.js* dist/"
+}
